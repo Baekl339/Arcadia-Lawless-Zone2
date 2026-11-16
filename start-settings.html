@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#11171a">
+<title>START SETTINGS | ARCADIA WASTELAND</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.start-page{padding-top:66px;padding-bottom:100px}
+.start-intro{position:relative;display:grid;grid-template-columns:150px 1fr;gap:28px;align-items:center;padding:30px;background:linear-gradient(115deg,rgba(215,123,63,.09),transparent 48%),#192125;border:1px solid #394448;overflow:hidden}
+.start-intro:after{content:"A/W";position:absolute;right:22px;bottom:-40px;font:800 150px/.8 'Barlow Condensed',sans-serif;color:rgba(255,255,255,.025);pointer-events:none}
+.intro-index{font:12px/1.8 'Share Tech Mono',monospace;color:#d77b3f;letter-spacing:1px;border-right:1px solid #485054;min-height:82px;display:flex;flex-direction:column;justify-content:center}
+.intro-index strong{font:700 34px/.9 'Barlow Condensed',sans-serif;color:#e5e4dc}
+.intro-copy{position:relative;z-index:1;max-width:800px}
+.intro-copy p{font-size:15px;line-height:2;color:#c3c9c3;margin:0}
+.intro-copy strong{color:#e6a06e;font-weight:700}
+.start-section{padding-top:66px}
+.start-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:24px;padding-bottom:18px;border-bottom:1px solid #394448}
+.start-heading h2{font:700 42px/.95 'Barlow Condensed',sans-serif;letter-spacing:1px;margin:9px 0 0}
+.start-heading h2 em{font-style:normal;color:#d77b3f}
+.start-heading p{font-size:11px;color:#879296;margin:0;max-width:250px;text-align:right}
+.scenario-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.scenario-card{position:relative;background:#192125;border:1px solid #394448;min-height:330px;padding:27px 28px 25px;display:flex;flex-direction:column;overflow:hidden}
+.scenario-card:before{content:"";position:absolute;left:0;top:0;width:3px;height:100%;background:#a9a18a}
+.scenario-card:nth-child(2):before{background:#d77b3f}
+.scenario-top{display:flex;justify-content:space-between;align-items:center;padding-bottom:18px;border-bottom:1px solid #354044}
+.scenario-no{font:12px 'Share Tech Mono',monospace;letter-spacing:1.5px;color:#d77b3f}
+.scenario-tag{font:9px 'Share Tech Mono',monospace;letter-spacing:1px;color:#899491;border:1px solid #465155;padding:4px 8px}
+.scenario-card h3{font:700 30px/1 'Barlow Condensed',sans-serif;letter-spacing:1px;margin:23px 0 17px;color:#e5e4dc}
+.scenario-card h3 em{font-style:normal;color:#d77b3f}
+.scenario-card blockquote{margin:0;padding:0;color:#b6bfba;font-size:13px;line-height:2.05;white-space:normal}
+.scenario-card strong{color:#e4a071;font-weight:700}
+.scenario-foot{margin-top:auto;padding-top:22px;display:flex;align-items:center;gap:9px;color:#7f8c8b;font:9px 'Share Tech Mono',monospace;letter-spacing:1px}
+.scenario-foot:before{content:"";width:20px;height:1px;background:#d77b3f}
+.start-warning{margin-top:18px;padding:13px 16px;background:#252622;border:1px solid #5d4a39;color:#aeb4aa;font-size:10px;line-height:1.8}
+.start-warning b{font:11px 'Share Tech Mono',monospace;color:#d77b3f;margin-right:10px}
+@media(max-width:720px){.start-intro{grid-template-columns:1fr;gap:14px;padding:22px}.intro-index{border-right:0;border-bottom:1px solid #485054;padding-bottom:12px;min-height:0}.intro-index strong{font-size:28px}.intro-copy p{font-size:12px}.scenario-grid{grid-template-columns:1fr}.scenario-card{min-height:0;padding:22px}.scenario-card h3{font-size:27px}.scenario-card blockquote{font-size:11px}.start-heading{display:block}.start-heading h2{font-size:36px}.start-heading p{text-align:left;margin-top:10px}.start-page{padding-top:42px}}
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">A<span>/</span>W</span><span>ARCADIA<br><small>WASTELAND</small></span></a>
+  <nav class="main-nav"><a href="index.html">메인</a><a href="world.html">세계관</a><a href="characters.html">인물</a></nav>
+  <div class="header-status"><i></i> 자료 열람 <span>2065.XX.XX</span></div>
+</header>
+<main class="page-wrap start-page">
+  <div class="page-heading">
+    <div>
+      <p class="eyebrow">기록 보관소 / 접속 안내</p>
+      <h1>START <em>SETTINGS</em></h1>
+      <p class="page-lead">공명 체질 보유자 — 생존 기록 및 초기 접촉 상황</p>
+    </div>
+    <div class="heading-stamp">기밀 해제<br><b>초기 기록</b><br>번호 2065-S</div>
+  </div>
+
+  <section class="start-intro">
+    <div class="intro-index"><strong>NOTICE</strong>ETHER / RESONANCE</div>
+    <div class="intro-copy">
+      <p>에테르 오염의 위협에서 벗어날 수 없는 세계.<br>당신은 신체 접촉을 통해 대상의 오염을 가라앉힐 수 있는 <strong>공명 체질</strong>을 타고난 특별한 존재입니다.</p>
+    </div>
+  </section>
+
+  <section class="start-section">
+    <div class="start-heading">
+      <div><span class="section-kicker">01—02 / ENTRY POINT</span><h2>CHOOSE YOUR <em>BEGINNING</em></h2></div>
+      <p>두 가지 시작 설정 중 하나를 선택해 이야기를 시작하십시오.</p>
+    </div>
+    <div class="scenario-grid">
+      <article class="scenario-card">
+        <div class="scenario-top"><span class="scenario-no">SCENARIO / 01</span><span class="scenario-tag">ETHER STORM</span></div>
+        <h3>폭풍 속의 <em>우연한 합석</em></h3>
+        <blockquote>
+          자연 속에서 몰아치는 재해, 에테르 폭풍.<br>
+          당신은 폭풍을 피해 들어온 창고에서 강우진, 한진혁, 아서 펜로즈와 우연히 합석하게 됩니다. <strong>폭풍 속 에테르 농도 때문에 진혁의 오염이 '불안정' 단계로 올라갔지만,</strong> 아무도 억제제를 가지고 있지 않습니다. 아서는 감각으로 당신의 에테르 파장이 흔들리는 것을 감지했습니다.
+        </blockquote>
+        <div class="scenario-foot">LOCATION : TEMPORARY STORAGE</div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-top"><span class="scenario-no">SCENARIO / 02</span><span class="scenario-tag">GUILD REQUEST</span></div>
+        <h3>길드 게시판의 <em>세 가지 의뢰</em></h3>
+        <blockquote>
+          당신은 수중에 가진 재화가 <strong>정화 코어 반 조각뿐</strong>인 빈털터리라 당장 일거리가 필요합니다. 용병 길드 게시판에는 의뢰서 세 장(권하진, 펜로즈 사무소, 하이에나의 J.C.)만 남아 있습니다. 의뢰서를 떼려는 순간, 정보 브로커 강우진이 다가와 "어느 게 덜 위험한지" 정보를 팔겠다고 제안합니다.
+        </blockquote>
+        <div class="scenario-foot">LOCATION : MERCENARY GUILD</div>
+      </article>
+    </div>
+    <div class="start-warning"><b>FIELD NOTE</b> 공명은 신체 접촉을 통해 작용합니다. 시작 상황과 이후의 선택은 플레이어의 판단에 따라 달라질 수 있습니다.</div>
+  </section>
+</main>
+<footer class="site-footer"><span>ARCADIA WASTELAND © 2065</span><span>시작 설정 / 기밀</span><a href="world.html">세계관으로 ↑</a></footer>
+</body>
+</html>
